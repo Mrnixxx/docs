@@ -9,9 +9,15 @@
   },
   "favicon": "https://media.brand.dev/c087195f-e6fa-4071-854e-053e9d06c03b.png",
   "navbar": {
+    "links": [
+      {
+        "label": "Website",
+        "href": "https://www.carrotfunding.io/"
+      }
+    ],
     "primary": {
       "type": "button",
-      "label": "Launch App",
+      "label": "App",
       "href": "https://app.carrotfunding.io/"
     }
   },
