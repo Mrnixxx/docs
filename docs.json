@@ -70,5 +70,9 @@
       "x": "https://x.com/carrotfunding",
       "discord": "https://t.co/1qdZDNw5IA"
     }
+  },
+  "logo": {
+    "light": "/images/logo.png",
+    "dark": "/images/logo.png"
   }
 }
