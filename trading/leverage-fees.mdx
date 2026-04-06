@@ -1,0 +1,53 @@
+---
+title: "Leverage & Fees"
+description: "Understand leverage limits and trading fees across all asset classes."
+---
+
+## Leverage limits
+
+Leverage maximums are determined by Gains Network's risk parameters and vary by asset class.
+
+| Asset Class | Min Leverage | Max Leverage |
+|---|---|---|
+| Crypto (major) | 2x | 150x |
+| Crypto (altcoins) | 2x | 50x |
+| Forex (major) | 2x | 1000x |
+| Forex (minor/exotic) | 2x | 500x |
+| Gold / Silver | 2x | 250x |
+| Commodities | 2x | 100x |
+
+<Warning>
+  High leverage significantly increases the risk of hitting your drawdown limits. Most successful prop traders use 10–50x on crypto and 100–500x on forex.
+</Warning>
+
+## Trading fees
+
+All fees are charged by the Gains Network protocol. Carrot Funding does not add additional fees on top.
+
+### Opening & closing fees
+
+| Asset Class | Open Fee | Close Fee |
+|---|---|---|
+| Crypto | 0.08% | 0.08% |
+| Forex | 0.04% | 0.04% |
+| Commodities | 0.06% | 0.06% |
+
+Fees are calculated on **position size (notional value)**, not on margin.
+
+**Example:** Opening a $10,000 BTC position (e.g. $100 margin at 100x) → fee = $10,000 × 0.08% = **$8**
+
+### Borrowing fee (overnight)
+
+Positions held open accrue a borrowing fee charged per block on Arbitrum. The rate varies by asset and current open interest utilization.
+
+You can view the live borrowing rate for any asset in the trading terminal before placing a trade.
+
+### Liquidation
+
+A position is liquidated when unrealized losses reach **90% of the margin**. With mandatory Stop Losses, liquidation should never be reached in normal trading.
+
+## Fee impact on drawdown
+
+<Tip>
+  Fees count toward your drawdown. On a $25,000 account with 5% daily drawdown ($1,250), high-frequency trading with large positions can eat into your daily limit quickly. Factor fees into your daily risk budget.
+</Tip>
