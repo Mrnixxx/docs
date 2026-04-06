@@ -1,0 +1,71 @@
+{
+  "projectType": "saas",
+  "projectName": "carrotfunding.io",
+  "projectDescription": "The first DeFi-native trader funding firm that combines performance-based trading challenges with on-chain transparency, NFT-based reputation, and real-time payouts.",
+  "theme": "almond",
+  "primaryColor": "#8c9494",
+  "lightColor": "#1e1f20",
+  "darkColor": "#cecfd0",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Introduction",
+        "pages": [
+          "introduction/about",
+          "introduction/difference",
+          "introduction/transparency"
+        ]
+      },
+      {
+        "group": "Get Funded",
+        "pages": [
+          "get-funded/how-to-start",
+          "get-funded/how-it-works"
+        ]
+      },
+      {
+        "group": "Trading Experience",
+        "pages": [
+          "trading/dashboard",
+          "trading/terminal",
+          "trading/venues"
+        ]
+      },
+      {
+        "group": "Community",
+        "pages": [
+          "community/carrot-fbi",
+          "community/referral-program",
+          "community/points-program"
+        ]
+      },
+      {
+        "group": "Support",
+        "pages": [
+          "support/support-guide",
+          "support/faq",
+          "support/terms",
+          "support/privacy-policy"
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "DeFi-native trader funding challenges",
+    "NFT-based challenge credentials and reputation layer",
+    "On-chain transparency for all fund movements and payouts",
+    "Perpetual futures trading via decentralized protocols",
+    "Trader Dashboard and integrated Trading Terminal",
+    "Referral Program and Points Program for community rewards",
+    "Carrot FBI community verification system"
+  ],
+  "publicApiSurface": [
+    "Challenge purchase and minting flow",
+    "Trader Dashboard (performance metrics, payout requests)",
+    "Trading Terminal (order entry, positions)",
+    "Supported Trading Venues",
+    "Referral Program enrollment",
+    "Points Program participation",
+    "Discord support ticket system"
+  ]
+}

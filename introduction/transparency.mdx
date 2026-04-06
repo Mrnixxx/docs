@@ -1,0 +1,46 @@
+---
+title: 'Transparency'
+description: 'Every contract, wallet, and executor used by carrotfunding.io is public. Verify the entire operation on-chain at any time.'
+---
+
+The goal is to make every part of the trading and funding process transparent, observable, auditable, and verifiable. You should never have to trust a claim when you can verify it directly on-chain.
+
+<Info>
+  All contracts operate on Arbitrum. You can inspect transactions, balances, and execution history at any time using the links below.
+</Info>
+
+## On-chain addresses
+
+| Component | Description | Address |
+|-----------|-------------|---------|
+| NFT (Carrot FBI) Contract | Gives you access to the challenge and stores your trading data on-chain | [0x16F6fF31...9E4c9c](https://arbiscan.io/address/0x16F6fF310D113fe4b5a1C2E251E25530989E4c9c) |
+| Vault Contract | Handles A-book position hedging and B-book tail risk | [0xa6287941...F368F](https://rethink.finance) |
+| Vault Interaction Limits (Roles Modifier) | Scoped permissions governing automated and manual execution against the vault | [0xCf647B53...72a0b](https://arbiscan.io/address/0xCf647B53862a55865FF5058B922782A78C572a0b) |
+| Risk Management Script Executor EOA | EOA that executes the automated risk management script | [0x77f252b5...c85e](https://arbiscan.io/address/0x77f252b5a4c1192efe09fcd7f9934a39c62ec85e) |
+| Manual Hedging Activity Executor EOA | EOA used for manual risk management activities | [0x930739ab...f5cc](https://arbiscan.io/address/0x930739ab33e3a2b27a0b286cf15093bee21ef5cc) |
+| Operational Wallet | Team multisig for operational expenses | [0xa9742e87...06b6](https://arbiscan.io/address/0xa9742e8798432831E4E198F0AeDd1f625C8a06b6) |
+
+<Note>
+  The Vault Contract is managed through [rethink.finance](https://rethink.finance). The Roles Modifier enforces scoped interaction limits — neither the risk management executor nor the manual hedging executor can exceed their defined permissions.
+</Note>
+
+## What you can verify
+
+<CardGroup cols={2}>
+  <Card title="Challenge payments" icon="credit-card">
+    Every evaluation fee you pay flows directly into the on-chain system. You can trace the transaction from your wallet to the contract.
+  </Card>
+  <Card title="Trader payouts" icon="circle-dollar-sign">
+    Payouts are executed on-chain. You can verify that funds moved from the vault to your wallet without any intermediary.
+  </Card>
+  <Card title="Risk management activity" icon="shield-check">
+    Both automated and manual hedging activity is executed by known EOAs with constrained permissions. Every action is recorded on-chain.
+  </Card>
+  <Card title="Your NFT credential" icon="id-card">
+    Your challenge NFT is a public, immutable record. Anyone can verify your evaluation parameters and trading history by looking up your token on-chain.
+  </Card>
+</CardGroup>
+
+<Tip>
+  Bookmark the Arbiscan links above to monitor activity on any contract at any time. You do not need to ask carrotfunding.io for confirmation of any transaction.
+</Tip>

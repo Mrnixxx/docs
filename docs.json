@@ -1,0 +1,68 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "almond",
+  "name": "carrotfunding.io",
+  "colors": {
+    "primary": "#75E4AA",
+    "light": "#75E4AA",
+    "dark": "#75E4AA"
+  },
+  "favicon": "https://media.brand.dev/c087195f-e6fa-4071-854e-053e9d06c03b.png",
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Launch App",
+      "href": "https://app.carrotfunding.io/"
+    }
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Introduction",
+        "pages": [
+          "introduction/about",
+          "introduction/difference",
+          "introduction/transparency"
+        ]
+      },
+      {
+        "group": "Get Funded",
+        "pages": [
+          "get-funded/how-to-start",
+          "get-funded/how-it-works"
+        ]
+      },
+      {
+        "group": "Trading Experience",
+        "pages": [
+          "trading/dashboard",
+          "trading/terminal",
+          "trading/venues"
+        ]
+      },
+      {
+        "group": "Community",
+        "pages": [
+          "community/carrot-fbi",
+          "community/referral-program",
+          "community/points-program"
+        ]
+      },
+      {
+        "group": "Support",
+        "pages": [
+          "support/support-guide",
+          "support/faq",
+          "support/terms",
+          "support/privacy-policy"
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/carrotfunding",
+      "discord": "https://t.co/1qdZDNw5IA"
+    }
+  }
+}
